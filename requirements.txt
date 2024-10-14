@@ -2,5 +2,4 @@ streamlit
 openai
 PyPDF2
 rank-bm25
-pickle
 python-dotenv
