@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["openai"]["api_key"]
 
 class BM25Retriever:
     def __init__(self, chunks):
